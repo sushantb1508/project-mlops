@@ -9,9 +9,9 @@ code = programfile.read() #reading the code file
 
 if 'keras' or 'tensorflow' in code: #CNN code should have keras and tensorflow
     if 'Conv2D' in code:#If the code is in CNN then conv2D should always be there 
-        print('kerasCNN')
+        print('CNN')
     else:
-        print('not kerasCNN')
+        print('not CNN')
 else:
     print('not deep learning')
 
